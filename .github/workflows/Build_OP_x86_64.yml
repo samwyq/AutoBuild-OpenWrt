@@ -64,8 +64,11 @@ jobs:
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
  
     - name: 自定义插件主题。
+      working-directory: ./openwrt
       run: |
-      working-directory: ./openwrt/package/openwrt-packages
+        cd package
+        mkdir openwrt-packages
+        cd openwrt-packages
         git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
         git clone https://github.com/tty228/luci-app-serverchan.git
 
