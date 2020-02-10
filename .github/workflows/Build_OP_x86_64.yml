@@ -65,9 +65,7 @@ jobs:
  
     - name: 自定义插件主题。
       run: |
-        cd package
-        mkdir openwrt-packages
-        cd openwrt-packages
+      working-directory: ./openwrt/package/openwrt-packages
         git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
         git clone https://github.com/tty228/luci-app-serverchan.git
 
