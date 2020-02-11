@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: ks-86-20-2-t2
+name: ks-86-20-2-t3
 
 on: 
   release:
     types: [published]
 
-  push:
-    branches: 
-      - master
+  #push:
+    #branches: 
+     # - master
 
   #schedule:
   #  - cron: 0 8 * * 5
