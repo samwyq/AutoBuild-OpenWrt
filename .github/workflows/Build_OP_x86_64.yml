@@ -71,6 +71,7 @@ jobs:
         cd openwrt-packages
         git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
         git clone https://github.com/tty228/luci-app-serverchan.git
+        git clone https://github.com/Lienol/openwrt-package.git
 
     - name: Update & Install feeds
       working-directory: ./openwrt
