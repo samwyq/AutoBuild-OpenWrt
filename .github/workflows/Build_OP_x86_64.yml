@@ -68,7 +68,7 @@ jobs:
       run: |
         cd package
         git clone https://github.com/Lienol/openwrt-package.git
-        cd openwrt-packages
+        cd openwrt-package
         git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
         git clone https://github.com/tty228/luci-app-serverchan.git
         git clone https://github.com/jerrykuku/luci-app-vssr.git
